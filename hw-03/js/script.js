@@ -6,7 +6,7 @@ const isLoginValid = function(login) {
 
 const isLoginUnique = function(allLogins, login) {
   let isOnly;
-  for (all of allLogins) {
+  for (const all of allLogins) {
     if (all === login) {
       isOnly = false;
       break;
