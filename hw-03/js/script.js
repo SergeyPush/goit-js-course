@@ -14,7 +14,6 @@ const isLoginUnique = function(allLogins, login) {
       isOnly = true;
     }
   }
-  return isOnly;
 };
 
 const addLogin = function(allLogins, login) {
