@@ -1,0 +1,11 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  margin-top: 30px;
+  min-height: 300px;
+}
+.card-title {
+  font-weight: bold;
+}
