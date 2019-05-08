@@ -1,11 +1,30 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .card {
   margin-top: 30px;
   min-height: 300px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 500px;
 }
-.card-title {
-  font-weight: bold;
+
+.content {
+  font-size: 15px
+}
+
+.counter {
+  margin-bottom: 10px;
+  font-size: 20px
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons .btn:not(:last-child) {
+  margin-right: 20px;
 }
