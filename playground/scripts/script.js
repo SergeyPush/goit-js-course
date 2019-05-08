@@ -1,6 +1,6 @@
 import publications from "./publications.js";
 
-const title = document.querySelector(".card-title");
+const title = document.querySelector(".title");
 const content = document.querySelector(".content");
 const counter = document.querySelector(".counter");
 const prevButton = document.querySelector(".left");
