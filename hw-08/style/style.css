@@ -1,0 +1,21 @@
+.questionnaries-form {
+  padding-top: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+.button-container {
+  text-align: center;
+}

@@ -9,3 +9,10 @@ body {
 .card-title {
   font-weight: bold;
 }
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.left {
+  margin-right: 20px;
+}
