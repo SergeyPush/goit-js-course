@@ -1,40 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
-      rel="stylesheet"
-    />
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="card  z-depth-3">
-        <div class="card-content ">
-          <p class="card-title"></p>
-          <p class="content"></p>
-        </div>
-      </div>
-      <div class="counter center-align"></div>
-      <div class="buttons ">
-        <button class="waves-effect waves-light btn btn-large left">
-          Назад
-        </button>
-        <button class="waves-effect waves-light btn btn-large right">
-          Вперед
-        </button>
-      </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script type="module" src="./scripts/script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="reader">
+    <article class="publication ">
+      <h2 class="title "></h2>
+      <p class="content "></p>
+    </article>
+    <div class="counter"></div>
+    <section class="controls ">
+      <button class="left button">Назад</button>
+      <button class="right button ">Вперед</button>
+    </section>
+  </div>
+  <script type="module" src="./scripts/script.js"></script>
+</body>
+
 </html>
