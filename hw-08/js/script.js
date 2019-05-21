@@ -1,6 +1,6 @@
 // Imports and variables declaration
 import QuizData from "./quizdata.js";
-import renderForm from "./QuizForm.js";
+import renderForm from "./quizForm.js";
 
 const questionssection = document.querySelector(".questions");
 const headerTitle = document.querySelector(".title");
