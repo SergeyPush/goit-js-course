@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hw-012</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <section>
+            <h3>Переключатель цветов</h3>
+            <button class="waves-light btn" data-action="start">Start</button>
+            <button class="waves-light btn" data-action="stop" disabled>Stop</button>
+            <hr>
+        </section>
+        <section>
+            <h3>Timer</h3>
+            <div class="timer" id="timer-1">
+                <div class="field">
+                    <span class="value" data-value="days">11</span>
+                    <span class="label">:</span>
+                </div>
+
+                <div class="field">
+                    <span class="value" data-value="hours">11</span>
+                    <span class="label">:</span>
+                </div>
+
+                <div class="field">
+                    <span class="value" data-value="mins">11</span>
+                    <span class="label">:</span>
+                </div>
+
+                <div class="field">
+                    <span class="value" data-value="secs">11</span>
+                    <span class="label"></span>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/scriptColors.js"></script>
+    <script src="js/scriptPromises.js"></script>
+    <script src="js/scriptTimer.js" type="module"></script>
+</body>
+
+</html>
