@@ -1,8 +1,16 @@
 .timer {
-    display: flex;
-    flex-direction: row
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
 }
 
-.field span {
-    font-size: 22px
+.value {
+  font-size: 40px;
+}
+
+.label {
+  display: block;
+  text-align: center;
+  color: #616161;
 }
